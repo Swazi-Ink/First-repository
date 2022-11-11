@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Swazi Ink| Home</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css.stylesheet.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-light fixed bg-warning" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Swazi Ink</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+         
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+      	<input class=" form-control form-control-sm me-2" type="" name="loginusername" placeholder=" email or username" >
+      	<input class="form-control form-control-sm me-2" type="password" name="loginpassword" placeholder="password">
+      	<button  class="btn btn-sm btn-outline-success" type="submit"><a href="account/index.html">signin</a></button>  
+      	
+      </form>
+      <!-- <form class="d-flex">s
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+    </div>
+  </div>
+</nav>
+
+
+<main class="flex-shrink-0">
+  <div class="sticky-container">
+    <div>
+    	<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img class="img-responsive" width="100%" height="200px" src="img/carousel-slide.jpg">
+
+        <div class="container">
+          <div class="carousel-caption text-start text-dark">
+            <h1>Welcome to <span class="text-warning text-outline-success">Swazi Ink </span></h1>
+            <p text-muted>Provide a safe network for readers and writers in creative art space</p>
+            <p><a class="btn btn-sm btn-warning btn-outline-success" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+         <img class="img-responsive" width="100%" height="200px" src="img/carousel-slide.jpg">
+
+        <div class="container">
+          <div class="carousel-caption text-start text-center   text-dark">
+            <h1>Inspire to Aspire</h1>
+            <p>looking for local? authentic stories? <b>you have reached the right place</b></p>
+            <p><a class="btn btn-sm btn-warning btn-outline-success" href="#">browse Stories</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+         <img class="img-responsive" width="100%" height="200px" src="img/carousel-slide.jpg">
+
+        <div class="container">
+          <div class="carousel-caption text-end text-dark">
+            <h1>What we do</h1>
+            <p>were are an online social sites aims to promote and establish young writers to the world</p>
+            <p><a class="btn btn-sm btn-warning btn-outline-success" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    </div>
+
+  </div>
+</main>
+
+
+<footer class="footer text-center mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-dark"> a Swazi Ink Company | 2022 | ALL RIGHTS RESERVED | </span>
+  </div>
+</footer>
+
+<script src="bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
